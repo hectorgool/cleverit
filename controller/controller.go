@@ -40,7 +40,7 @@ func AddBeers(c *gin.Context) {
 	c.BindJSON(&beer)
 
 	if err := config.GetDB().Where("ID = ?", beer.ID).First(&row).Error; err != nil {
-		c.JSON(400, gin.H{"cerveza": "Request invalida"})
+		log.Println(err)
 	}
 
 	// El ID de la cerveza ya existe
