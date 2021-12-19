@@ -48,7 +48,7 @@ docker exec -it cleverit_db mysql -u cleverit -pasdf cervezas
 #### Monedas soportadas
 USD,AUD,CAD,PLN,MXN,CHF
 
-#### Ejemplos de endpoints:
+## Ejemplos de endpoints:
 
 Lista todas las cervezas que se encuentran en el sistema:
 ```sh
