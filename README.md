@@ -86,9 +86,8 @@ http://localhost:8080/beers
 
 *Nota:
 La base de datos tiene 2 registros de prueba:
-+----+--------+---------+---------+-------+----------+
-| id | name   | brewery | country | price | currency |
-+----+--------+---------+---------+-------+----------+
-|  1 | Golden | Kross   | Chile   |  10.5 | EUR      |
-|  2 | Negra  | Modelo  | Mexico  |     1 | USD      |
-+----+--------+---------+---------+-------+----------+
+
+| id | name  | brewery  |country  | price  |currency  |
+| :-----: | :-: | :-: |:-: | :-: |:-: |
+| 1 | Golden | Kross | Chile | 10.5 | EUR |
+| 2 | Negra | Modelo | Mexico1 | 1 | USD |
