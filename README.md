@@ -85,7 +85,7 @@ http://localhost:8080/beers
 ```
 
 *Nota:
-La base de datos tiene 2 registros de prueba:
+La base de datos tiene 2 registros de prueba el la tabla beer_items:
 
 | id | name  | brewery  |country  | price  |currency  |
 | :-----: | :-: | :-: |:-: | :-: |:-: |
