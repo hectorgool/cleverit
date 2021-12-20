@@ -16,7 +16,7 @@ func TestStringToFloat64(t *testing.T) {
 	input := "6"
 
 	// define expected result
-	expected := 6
+	expected := 6.0
 
 	// perform test
 	actual := StringToFloat64(input)
